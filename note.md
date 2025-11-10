@@ -53,5 +53,10 @@ q.choice_set.all()
 q.choice_set.create(choice_text="Not much", votes=0)
 #creating an object with realtionship to object of q(Question object with the id of 1)
 ```
+```bin
+request.POST  # Only handles form data.  Only works for 'POST' method.
+request.data  # Handles arbitrary data.  Works for 'POST', 'PUT' and 'PATCH' methods.
+
+```
 
 
